@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import ru.ibra.bot.model.GetUpdatesRequest;
 import ru.ibra.bot.model.GetUpdatesResponse;
 import ru.ibra.bot.model.SendMessageRequest;
+import ru.ibra.bot.processors.MessageTextProcessor;
 
 @Slf4j
 public class TelegramServiceImpl implements TelegramService{
